@@ -48,9 +48,8 @@ What went wrong, what the agents were good and bad at, and the limits of this pr
 - **No external users.** It is a single-owner project. There are no adoption or customer-impact figures.
 - **Deployed and drilled, not operated.** The system ran on AWS and was exercised with planned drills. It has not handled an unplanned incident, and the deployment is no longer running.
 - **The on-call agent has not fixed a real bug.** In the drill the fault was injected, and the correct outcome was to change nothing.
-- **Verification by criteria, not by code review.** I approved acceptance criteria and relied on tests and independent QA. I did not read every line, and parts of the stack are outside my usual languages.
+- **Verification by criteria, not by code review.** I approved acceptance criteria and relied on tests and independent QA. I did not read line-by-line, and the most of the programming languages used were outside my area of expertise.
 - **No measurement of the agents themselves.** I did not track how often QA failed a task or how many iterations each took.
-- **The team pattern is not mine.** The PM, developer and QA split comes from the AI Dev Tools Zoomcamp. The product, decisions, rules and operating setup are my own.
 - **One server.** The database shares a disk with the app; daily snapshots are the only protection.
 
 ## What I would do next
